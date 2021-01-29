@@ -123,8 +123,8 @@ class FlutterLocationService : Service(), PluginRegistry.RequestPermissionsResul
             }
 
             val notification: Notification = NotificationCompat.Builder(this, CHANNEL_ID)
-                    .setContentTitle(getText(R.string.notification_title))
-                    .setSmallIcon(R.drawable.navigation_empty_icon)
+                    .setContentTitle("يقوم التطبيق بإرسال مكانك للنظام!")
+                    .setSmallIcon(resources.getIdentifier("@mipmap/ic_launcher", "mipmap", packageName))
                     .setPriority(NotificationCompat.PRIORITY_HIGH)
                     .build()
 
