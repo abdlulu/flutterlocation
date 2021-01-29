@@ -1,4 +1,4 @@
-name: location
+name: mylocation
 description: A Flutter plugin to easily handle realtime location in iOS and Android. Provides settings for optimizing performance or battery.
 version: 3.2.4
 author: Guillaume Bernos <guillaume@bernos.dev>
